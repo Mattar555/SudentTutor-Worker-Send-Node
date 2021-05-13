@@ -16,7 +16,7 @@ public class MailConfig {
     private final String subject = "Attendance Confirmation";
 
     private final String text = "Greetings. This is an automated message." +
-            " Please reply with either YES or NO if you are attending this week";
+            " Please send a NEW email with the same subject and type either YES or NO if you are attending this week";
 
     @Value("${spring.mail.host}")
     private String host;
